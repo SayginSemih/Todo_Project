@@ -1,0 +1,132 @@
+body, head{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.container{
+    border-color: lightblue;
+    border-width: 5px;
+    border-style: groove;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.addTodo{
+    width: 100%;
+    height: 25%;
+    border-color: lightblue;
+    border-width: 2px;
+    margin-left: -3px;
+    border-style: groove;
+    overflow: auto;
+}
+
+.addTodoLabel{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.addTodoText{
+    margin-top: 15px;
+    display: block;
+    height: 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border-width: 2px;
+    border-color: black;
+}
+
+.addTodoButton{
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    height: 27px;
+    width: 178px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.removeAllTodoButton{
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 20px;
+    height: 27px;
+    width: 178px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.listTodo{
+    width: 100%;
+    overflow: auto;
+    height: 60%;
+}
+
+.addTodoListLabel{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.filterTodo{
+    height: 20px;
+    border-radius: 20px;
+    background-color: lightblue;
+    border-width: 2px;
+    border-color: black;
+}
+
+.filterTodoButton{
+    border-radius: 20px;
+    height: 27px;
+    width: 178px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.todoUl li{
+    list-style-type: none;
+    height: 30px;
+    font-size: 20px;
+    border-style:inset;
+    border-radius: 20px;
+    border-color: black;
+    margin-right: 30px;
+    margin-top: 2px;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+
+.remove-class{
+    width: 23px;
+    display: inline-block;
+    float: right;
+    padding-right: 14px;
+}
+
+.remove-class:hover{
+    cursor: grab;
+}
+
+.filterTodoButton:hover{
+    background-color: red;
+}
+
+.removeAllTodoButton:hover{
+    background-color: red;
+}
+
+.addTodoButton:hover{
+    background-color: red;
+}

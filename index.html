@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Uygulamasi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p><center><b>TODO UYGULAMASI</b></center></p>
+        <div class="addTodo">
+            <p class="addTodoLabel"><b>Todo Ekle</b></p>
+            <hr>
+            <center><input class="addTodoText" type="text"></center>
+            <center>
+                <button class="addTodoButton">Ekle</button>
+                <button class="removeAllTodoButton">Tüm Todoları Sil</button>
+            </center>
+        </div>
+        <div class="todos"></div>
+        <div class="listTodo">
+            <p class="addTodoListLabel"><b>Todo Listesi</b></p>
+            <center>
+                <input class="filterTodo" type="text">
+                <button class="filterTodoButton">Todo Ara</button>
+            </center>
+            <hr>
+            <ul class="todoUl">
+            </ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
